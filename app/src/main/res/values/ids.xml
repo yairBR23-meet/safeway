@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="close_button" type="id" />
+    <item name="init_model_button" type="id" />
+    <item name="useGPU_checkbox" type="id" />
+    <item name="select_model_spinner" type="id" />
+    <item name="textView" type="id" />
+    <item name="useNNApi_checkbox" type="id" />
+</resources>

@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.ml.projects.age_genderdetection.R;
+
 public class Settings extends AppCompatActivity {
 
     @Override

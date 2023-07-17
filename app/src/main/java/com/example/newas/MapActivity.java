@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.ml.projects.age_genderdetection.R;
 
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap googleMap;
