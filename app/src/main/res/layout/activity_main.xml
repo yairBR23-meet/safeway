@@ -32,14 +32,15 @@
     <EditText
         android:id="@+id/editText_email"
         android:layout_width="match_parent"
-        android:background="@drawable/edit_text_border"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_border"
         android:hint="Email:"
-        android:padding="10dp"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:layout_margin="10dp"
+        android:padding="10dp"
 
+        tools:ignore="TextSizeCheck"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="32dp" />
 
@@ -52,12 +53,13 @@
         android:id="@+id/editText_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password:"
+        android:layout_margin="10dp"
         android:background="@drawable/edit_text_border"
+        android:hint="Password:"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:padding="10dp"
-        android:layout_margin="10dp"
+        tools:ignore="TextSizeCheck"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="101dp" />
 

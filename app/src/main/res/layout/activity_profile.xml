@@ -60,14 +60,13 @@
         android:textSize="35dp" />
 
 
-
     <Button
         android:id="@+id/LogOutBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/log_out_btn"
         android:text="Log Out"
-        ></Button>
+        tools:ignore="TextSizeCheck"></Button>
 
     <!-- <Button
         android:id="@+id/back"

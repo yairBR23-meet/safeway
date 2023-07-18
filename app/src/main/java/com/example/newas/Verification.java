@@ -1,8 +1,5 @@
 //package com.example.newas;
 //
-//import androidx.annotation.Nullable;
-//import androidx.appcompat.app.AppCompatActivity;
-//
 //import android.content.Intent;
 //import android.graphics.Bitmap;
 //import android.graphics.BitmapFactory;
@@ -16,12 +13,17 @@
 //import android.widget.ImageView;
 //import android.widget.Toast;
 //
+//import androidx.annotation.Nullable;
+//import androidx.appcompat.app.AppCompatActivity;
+//
+//import com.ml.projects.age_genderdetection.R;
+//
 //import org.tensorflow.lite.DataType;
 //import org.tensorflow.lite.Interpreter;
-////import org.tensorflow.lite.support.common.FileUtil;
-////import org.tensorflow.lite.support.image.ImageProcessor;
-////import org.tensorflow.lite.support.image.TensorImage;
-////import org.tensorflow.lite.support.image.ops.ResizeOp;
+//import org.tensorflow.lite.support.common.FileUtil;
+//import org.tensorflow.lite.support.image.ImageProcessor;
+//import org.tensorflow.lite.support.image.TensorImage;
+//import org.tensorflow.lite.support.image.ops.ResizeOp;
 //
 //import java.io.IOException;
 //import java.nio.ByteBuffer;
